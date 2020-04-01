@@ -2,6 +2,7 @@ import React from 'react';
 import {Provider } from 'react-redux';
 
 import Cake from './components/cake/cake.component';
+import IceCream from './components/ice-cream/ice-cream.component'
 import Store from './redux/store';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Provider store={Store}>
      <div className="App">
       <Cake />
+      <IceCream />
     </div>
     </Provider>
    
