@@ -6,15 +6,12 @@ import IceCream from './components/ice-cream/ice-cream.component'
 import Store from './redux/store';
 
 import './App.css'
-import CakeContainer from './components/cake/cake-container.component';
-
 function App() {
   return (
     <Provider store={Store}>
      <div className="App">
-      {/* <Cake /> */}
+      <Cake />
       <IceCream />
-      <CakeContainer />
     </div>
     </Provider>
    
